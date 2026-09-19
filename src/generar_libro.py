@@ -23,11 +23,12 @@ from ej3_correlacion import escribir_correlacion
 from ej3_predicciones import PREDICCIONES, escribir_predicciones
 from ej3_regresion import escribir_regresion
 from hoja_datos import escribir_datos
-from textos_libro import PENDIENTE_FECHA, PENDIENTE_TUTOR, textos
+from textos_libro import PENDIENTE_FECHA, PENDIENTE_TUTOR, sin_frase_quiz, textos
 from verificacion import comparar, esperados_ej2, esperados_ej3
 
 NOMBRE_ARCHIVO = "actividad_probabilidad_y_estadistica_unidad_2.xlsx"   # por confirmar con Jairo
 RUTA_LIBRO = BASE / "output" / NOMBRE_ARCHIVO
+URL_REPOSITORIO = "https://github.com/JOsorioCruz/estadisiticas-y-analisis-de-datos"   # solo se imprime en la portada del PDF
 FILA0_EJ2 = 3          # la hoja del ejercicio 2 deja tres filas arriba para el título y la variable elegida
 HOJAS = ["Portada", "Presentación", "Introducción", "Objetivos", "Ejercicio 1", "Ejercicio 2", "Ejercicio 3",
          "Conclusiones", "Bibliografía", "Anexos", "DATOS"]
@@ -103,15 +104,20 @@ def hoja_texto(wb, est, nombre, titulo, bloques, ancho=110):
     return ws
 
 
-def hoja_portada(wb, est, t):
+def hoja_portada(wb, est, t, para_pdf=False):
     ws = wb.add_worksheet("Portada")
     ws.hide_gridlines(2)
     ws.set_column(0, 0, 24)
     ws.set_column(1, 1, 78)
     ws.write(1, 0, "Universidad de Cartagena", wb.add_format({"bold": True, "font_size": 20, "font_color": "#1F3864"}))
-    ws.write(2, 0, "Centro Tecnológico para la Formación Virtual y a Distancia (CTEV)", wb.add_format({"font_size": 12, "font_color": "#595959"}))
+    if para_pdf:          # en el PDF, el enlace al repositorio va al inicio de la portada
+        ws.write_url(0, 0, URL_REPOSITORIO, wb.add_format({"font_color": "#0563C1", "underline": 1, "font_size": 11}), string=f"Repositorio del trabajo: {URL_REPOSITORIO}")
+    if not para_pdf:      # en el PDF no se imprime la línea del CTEV
+        ws.write(2, 0, "Centro Tecnológico para la Formación Virtual y a Distancia (CTEV)", wb.add_format({"font_size": 12, "font_color": "#595959"}))
     fila = 5
     for etiqueta, valor in t["portada"][2:]:
+        if para_pdf and etiqueta in ("Tutor", "Fecha"):      # en el PDF no se imprimen el tutor ni la fecha
+            continue
         ws.write(fila, 0, etiqueta, est.etq)
         ws.write(fila, 1, valor, est.pendiente if valor.startswith("PENDIENTE") else est.valor)
         ws.set_row(fila, 24)
@@ -121,7 +127,7 @@ def hoja_portada(wb, est, t):
     return ws
 
 
-def hoja_ejercicio1(wb, est):
+def hoja_ejercicio1(wb, est, para_pdf=False):
     ws = wb.add_worksheet("Ejercicio 1")
     ws.hide_gridlines(2)
     ancho = {0: 24, 1: 72, 2: 72}
@@ -137,9 +143,10 @@ def hoja_ejercicio1(wb, est):
         ws.write(i, 1, definicion, est.celda)
         ws.write(i, 2, ejemplo, est.celda)
         ws.set_row(i, max(altura(definicion, ancho[1]), altura(ejemplo, ancho[2])))
-    fila = 4 + len(TABLA_1) + 1
-    ws.write(fila, 0, "Evidencia del quiz", est.subtitulo)
-    ws.merge_range(fila + 1, 0, fila + 12, 2, RUTULO_QUIZ, est.quiz)
+    if not para_pdf:      # en el PDF no se imprime el recuadro de la evidencia del quiz
+        fila = 4 + len(TABLA_1) + 1
+        ws.write(fila, 0, "Evidencia del quiz", est.subtitulo)
+        ws.merge_range(fila + 1, 0, fila + 12, 2, RUTULO_QUIZ, est.quiz)
     ws.set_landscape()
     ws.fit_to_pages(1, 0)
     return ws
@@ -183,7 +190,7 @@ def hoja_ejercicio3(wb, df, valores):
     return {"r": info_r, "c": info_c, "p": info_p}
 
 
-def hoja_anexos(wb, est, t, filas_verif):
+def hoja_anexos(wb, est, t, filas_verif, para_pdf=False):
     ws = wb.add_worksheet("Anexos")
     ws.hide_gridlines(2)
     anchos = [16, 36, 48, 22, 22, 14, 12]
@@ -240,7 +247,8 @@ def hoja_anexos(wb, est, t, filas_verif):
     ws.write(fila, 2, "Años de experiencia del conductor (x) e histórico de infracciones (y)", est.celda)
     ws.set_row(fila, 34)
     fila += 1
-    escribir_parrafo(ws, fila, an["Anexo C. Variables elegidas en el foro"][1], wb.add_format({"text_wrap": True, "valign": "top", "bg_color": "#FFF2CC"}), 6, total)
+    if not para_pdf:      # en el PDF no se imprime la nota de confirmación pendiente del foro
+        escribir_parrafo(ws, fila, an["Anexo C. Variables elegidas en el foro"][1], wb.add_format({"text_wrap": True, "valign": "top", "bg_color": "#FFF2CC"}), 6, total)
     fila += 3
     # Anexo D
     ws.write(fila, 0, "Anexo D. Convenciones adoptadas", est.subtitulo)
@@ -253,20 +261,20 @@ def hoja_anexos(wb, est, t, filas_verif):
     return ws
 
 
-def construir_libro(ruta, df, valores=True, filas_verif=(), ocultar_datos=False):
-    t = textos()
+def construir_libro(ruta, df, valores=True, filas_verif=(), ocultar_datos=False, para_pdf=False):
+    t = sin_frase_quiz(textos()) if para_pdf else textos()
     wb = xlsxwriter.Workbook(str(ruta), {"use_future_functions": True})
     wb.set_properties({"title": "Actividad No 2 de Probabilidad y Estadística (AF17401)", "subject": "Estadística descriptiva: accidentalidad en el Tolima",
                        "author": "Jairo Alonso Osorio Cruz", "comments": "Universidad de Cartagena, Ingeniería de Software"})
     est = Estilos(wb)
-    hoja_portada(wb, est, t)
+    hoja_portada(wb, est, t, para_pdf)
     hoja_texto(wb, est, "Presentación", "Presentación", [("p", x) for x in t["presentacion"]])
     hoja_texto(wb, est, "Introducción", "Introducción", [("p", x) for x in t["introduccion"]])
     o = t["objetivos"]
     hoja_texto(wb, est, "Objetivos", "Objetivos",
                [("sub", "Objetivo general"), ("p", o["general"]), ("sub", "Objetivos específicos")]
                + [("li", f"{i}. {x}") for i, x in enumerate(o["especificos"], 1)])
-    hoja_ejercicio1(wb, est)
+    hoja_ejercicio1(wb, est, para_pdf)
     info2 = hoja_ejercicio2(wb, df, valores)
     info3 = hoja_ejercicio3(wb, df, valores)
     bloques = []
@@ -285,7 +293,7 @@ def construir_libro(ruta, df, valores=True, filas_verif=(), ocultar_datos=False)
         fila += 2
     ws_b.set_landscape()
     ws_b.fit_to_pages(1, 0)
-    hoja_anexos(wb, est, t, filas_verif)
+    hoja_anexos(wb, est, t, filas_verif, para_pdf)
     ws_d = escribir_datos(wb, df)
     ws_d.set_column(0, 0, 26)
     ws_d.set_column(1, 8, 20)

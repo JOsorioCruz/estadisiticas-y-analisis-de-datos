@@ -2,11 +2,13 @@
 
 Trabajo de la **Guía de actividad No 2: Estadística descriptiva** (código AF17401), del programa de Ingeniería de Software de la Universidad de Cartagena. Autor: Jairo Alonso Osorio Cruz, semestre VI.
 
-La guía plantea que la Gobernación del Tolima necesita conocer los índices de accidentalidad del departamento. Para eso entrega una base con 400 accidentes de tránsito de Ibagué, Melgar y Espinal. Este proyecto resuelve los tres ejercicios de la guía y produce como resultado **un libro de Excel** y una **copia en PDF**, generados con Python y verificados de forma independiente.
+La guía plantea que la Gobernación del Tolima necesita conocer los índices de accidentalidad del departamento. Para eso entrega una base con 400 accidentes de tránsito de Ibagué, Melgar y Espinal. Este proyecto resuelve los tres ejercicios de la guía y produce como resultado **un libro de Excel**, una **copia en PDF** y un **documento de Word con todos los textos**, generados con Python y verificados de forma independiente.
 
 - Ejercicio 1: definiciones de seis conceptos estadísticos, con ejemplos tomados de la base.
 - Ejercicio 2: análisis de una variable, la velocidad registrada (tabla de frecuencia, gráficos, medidas de tendencia central, de posición y de dispersión, asimetría y curtosis).
 - Ejercicio 3: regresión lineal y correlación entre los años de experiencia del conductor y su histórico de infracciones.
+
+Repositorio del trabajo: https://github.com/JOsorioCruz/estadisiticas-y-analisis-de-datos
 
 > Este es un trabajo académico individual. Los materiales del curso (el enunciado y la base de datos) pertenecen a la Universidad de Cartagena.
 
@@ -20,9 +22,8 @@ La guía plantea que la Gobernación del Tolima necesita conocer los índices de
 ├── Anexo 1 - Base de datos .xlsx base de datos original (hoja DATOS, 400 registros)
 ├── requirements.txt              versiones exactas de los paquetes de Python
 ├── datos_entrega.ejemplo.json    plantilla para tutor y fecha de la portada
-├── task/                         plan.md y un archivo por tarea (00 a 15) con su resultado
 ├── src/                          scripts de Python, uno por tarea o módulo reutilizable
-└── output/                       libro final, PDF, textos para revisión y tabla de verificación
+└── output/                       libro final, PDF, documento de Word, textos para revisión y tabla de verificación
 ```
 
 `main.py` es el archivo de ejemplo que crea PyCharm y no forma parte del trabajo.
@@ -32,11 +33,12 @@ La guía plantea que la Gobernación del Tolima necesita conocer los índices de
 | Archivo | Descripción |
 |---|---|
 | `output/actividad_probabilidad_y_estadistica_unidad_2.xlsx` | Libro de Excel completo. Todas las medidas son fórmulas de Excel que apuntan a la hoja `DATOS`. |
-| `output/actividad_probabilidad_y_estadistica_unidad_2.pdf` | Copia en PDF de 21 páginas, sin la hoja de datos, con cada gráfico junto a su conclusión. |
+| `output/actividad_probabilidad_y_estadistica_unidad_2.pdf` | Copia en PDF de 20 páginas, con el enlace a este repositorio al inicio de la portada y cada gráfico junto a su conclusión. Sin la hoja de datos, sin tutor, fecha ni línea del CTEV en la portada, sin el recuadro del quiz y sin la nota de confirmación del foro del Anexo C. |
+| `output/textos_actividad_probabilidad_y_estadistica_unidad_2.docx` | Todos los textos del trabajo en un solo documento de Word de 15 páginas: portada, presentación, introducción, objetivos, Tabla 1, textos y tablas de los ejercicios 2 y 3, conclusiones, bibliografía y anexos. No lleva imágenes; los gráficos están en el libro de Excel. Tiene las mismas exclusiones que el PDF. |
 
 Hojas del libro, en orden: **Portada, Presentación, Introducción, Objetivos, Ejercicio 1, Ejercicio 2, Ejercicio 3, Conclusiones, Bibliografía, Anexos y DATOS**. La hoja `DATOS` es una copia exacta del Anexo 1.
 
-La portada tiene tres campos amarillos por completar (tutor, fecha y confirmación de las variables del foro) y la hoja del Ejercicio 1 tiene un recuadro para pegar la captura del quiz. Los pasos están en [ENTREGA.md](ENTREGA.md).
+El libro de Excel conserva todo lo que el PDF y el Word omiten: la portada tiene tres campos amarillos por completar (tutor, fecha y confirmación de las variables del foro) y la hoja del Ejercicio 1 tiene un recuadro para pegar la captura del quiz. Los pasos están en [ENTREGA.md](ENTREGA.md).
 
 ## Resultados principales
 
@@ -99,7 +101,7 @@ Si las lecturas traen otros criterios, se cambian en `src/ej2_dispersion.py` (`C
 
 ## Cómo reproducirlo
 
-Requisitos: Python 3.13, los paquetes de `requirements.txt` (pandas, numpy, scipy, xlsxwriter y openpyxl) y **LibreOffice**, porque la verificación y el PDF se generan con él. La ruta del ejecutable está en la constante `SOFFICE` de `src/ej2_tabla.py` (`/opt/homebrew/bin/soffice`, la de Homebrew en macOS); en otro sistema hay que ajustarla. La revisión ortográfica usa `swift`, que viene con las herramientas de línea de comandos de Xcode.
+Requisitos: Python 3.13, los paquetes de `requirements.txt` (pandas, numpy, scipy, xlsxwriter y openpyxl), **LibreOffice**, porque la verificación y el PDF se generan con él, y **pandoc**, para el documento de Word. La ruta del ejecutable está en la constante `SOFFICE` de `src/ej2_tabla.py` (`/opt/homebrew/bin/soffice`, la de Homebrew en macOS); en otro sistema hay que ajustarla. La revisión ortográfica usa `swift`, que viene con las herramientas de línea de comandos de Xcode.
 
 ```bash
 python3 -m venv .venv
@@ -111,6 +113,7 @@ Desde la raíz del proyecto:
 ```bash
 .venv/bin/python src/generar_libro.py     # genera y verifica el libro final
 .venv/bin/python src/exportar_pdf.py      # genera la copia en PDF
+.venv/bin/python src/exportar_docx.py     # genera el documento de Word con todos los textos
 .venv/bin/python src/revision_final.py    # revisión final contra el enunciado y la rúbrica
 .venv/bin/python src/verificacion.py      # tabla de verificación cruzada (output/verificacion.json)
 ```
@@ -135,7 +138,8 @@ Para poner el tutor y la fecha en la portada, copiar `datos_entrega.ejemplo.json
 | `textos_libro.py` | Portada, presentación, introducción, objetivos, conclusiones, bibliografía y anexos |
 | `verificacion.py` | Verificación cruzada contra numpy y scipy con recálculo de LibreOffice |
 | `generar_libro.py` | Ensambla el libro completo y lo verifica |
-| `exportar_pdf.py` | Exporta el libro a PDF sin la hoja de datos |
+| `exportar_pdf.py` | Exporta el libro a PDF: sin la hoja de datos, con el enlace al repositorio en la portada y sin los campos pendientes |
+| `exportar_docx.py` | Reúne todos los textos y tablas de texto en un documento de Word con pandoc |
 | `revision_final.py` | Revisión final contra el enunciado, la rúbrica y la lista de comprobación |
 | `corrector.swift` | Usa el corrector ortográfico del sistema para revisar los textos |
 
@@ -143,7 +147,7 @@ Cada módulo de ejercicio se puede ejecutar solo: genera un borrador en `output/
 
 ## Cómo se trabajó
 
-El trabajo se hizo en **16 tareas pequeñas, una por una y cada una aprobada por el autor**. Cada tarea tiene su archivo en `task/` con objetivo, pasos, criterio de aceptación y resultado con números reales, y `task/plan.md` es el índice con el estado.
+El trabajo se hizo en **16 tareas pequeñas, una por una y cada una aprobada por el autor**. El registro detallado de cada tarea (objetivo, pasos, criterio de aceptación y resultado con números reales) se llevó en archivos aparte que no forman parte de este repositorio.
 
 | # | Tarea |
 |---|---|

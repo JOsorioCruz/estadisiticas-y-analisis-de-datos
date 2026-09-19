@@ -178,6 +178,20 @@ def textos():
             "conclusiones": conclusiones, "bibliografia": bibliografia, "anexos": anexos}
 
 
+FRASE_QUIZ = " El resultado del quiz de la plataforma se adjunta como evidencia en la hoja del ejercicio 1."
+
+
+def sin_frase_quiz(t):
+    """Copia de los textos sin la frase que remite al recuadro del quiz, para las versiones (PDF y Word) que no lo llevan."""
+    t = dict(t)
+    nuevas = []
+    for titulo, texto in t["conclusiones"]:
+        nuevas.append((titulo, texto.replace(FRASE_QUIZ, "")))
+    assert nuevas != t["conclusiones"], "no se encontró la frase del quiz"
+    t["conclusiones"] = nuevas
+    return t
+
+
 def a_markdown(t):
     """Un archivo por sección para revisión de Jairo."""
     a = {}

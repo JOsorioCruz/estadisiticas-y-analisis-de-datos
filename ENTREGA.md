@@ -7,7 +7,8 @@ Este documento explica qué se entrega, cómo cubre cada punto del enunciado y d
 | Archivo | Para qué sirve |
 |---|---|
 | `output/actividad_probabilidad_y_estadistica_unidad_2.xlsx` | **Entrega principal.** El enunciado pide el trabajo escrito consolidado en Excel. |
-| `output/actividad_probabilidad_y_estadistica_unidad_2.pdf` | Copia en PDF de 21 páginas para leer el trabajo sin abrir Excel. Es el mismo libro sin la hoja `DATOS` de 400 filas, con cada gráfico junto a su conclusión. |
+| `output/actividad_probabilidad_y_estadistica_unidad_2.pdf` | Copia en PDF de 20 páginas para leer el trabajo sin abrir Excel. Es el mismo libro sin la hoja `DATOS` de 400 filas, con cada gráfico junto a su conclusión y el enlace al repositorio al inicio de la portada. Por pedido del autor **no incluye** el tutor, la fecha, la línea del CTEV, el recuadro del quiz ni la nota de confirmación del foro del Anexo C. |
+| `output/textos_actividad_probabilidad_y_estadistica_unidad_2.docx` | Todos los textos del trabajo en un solo documento de Word de 15 páginas, con las mismas exclusiones que el PDF y sin imágenes. |
 
 Si el docente solo acepta Excel, se sube el `.xlsx`. El PDF es un complemento.
 
@@ -70,7 +71,7 @@ El libro entregado por este proyecto tiene tres campos amarillos marcados `PENDI
    .venv/bin/python src/exportar_pdf.py
    ```
 3. **Hacer el quiz** en la plataforma y **pegar la captura** en el recuadro de la hoja `Ejercicio 1` del `.xlsx`. **Después de pegarla no se debe volver a ejecutar `generar_libro.py`**, porque sobrescribe el archivo y la captura se perdería.
-4. **PDF con la captura.** El PDF generado por el script no incluye la captura. Para tener uno completo, exportar desde Excel (Archivo, Exportar, PDF), seleccionando todas las hojas menos `DATOS`.
+4. **PDF y Word.** Ninguno de los dos lleva el recuadro del quiz, el tutor ni la fecha, así que no dependen de los pasos 1 y 3: se regeneran con `.venv/bin/python src/exportar_pdf.py` y `.venv/bin/python src/exportar_docx.py` cuando cambie algún texto.
 5. **Leer los textos y reescribir con su voz** lo que no suene como él, sobre todo la Tabla 1 (la rúbrica pide que esté con sus propias palabras). Los cambios se hacen en `src/ej1_tabla.py` y `src/textos_libro.py` si se quiere regenerar, o directamente en el Excel si ya pegó la captura.
 6. **Abrir el libro en Microsoft Excel** y comprobar que los valores coinciden con la tabla de verificación de Anexos. La verificación se hizo con LibreOffice y no se probó en Excel.
 7. **Bibliografía:** confirmar que consultó las dos lecturas. Si quiere añadir el Anexo 1 y las librerías de Python, están redactadas en `output/textos/06_bibliografia.md`, pero sus datos se escribieron de memoria y deben verificarse.
