@@ -1,0 +1,11 @@
+# Entorno y archivos del editor
+.venv/
+.idea/
+__pycache__/
+.DS_Store
+
+# Datos personales de la entrega (se copian desde datos_entrega.ejemplo.json)
+datos_entrega.json
+
+# Borradores intermedios de cada tarea; el libro final y el PDF sí se versionan
+output/*_borrador.xlsx

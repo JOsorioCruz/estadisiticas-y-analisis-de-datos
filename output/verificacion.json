@@ -1,0 +1,1417 @@
+{
+ "tolerancia": 1e-09,
+ "filas": [
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 1: Li",
+   "excel_libreoffice": 32,
+   "python": 32.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 2: Li",
+   "excel_libreoffice": 43,
+   "python": 43.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 3: Li",
+   "excel_libreoffice": 54,
+   "python": 54.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 4: Li",
+   "excel_libreoffice": 65,
+   "python": 65.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 5: Li",
+   "excel_libreoffice": 76,
+   "python": 76.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 6: Li",
+   "excel_libreoffice": 87,
+   "python": 87.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 7: Li",
+   "excel_libreoffice": 98,
+   "python": 98.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 8: Li",
+   "excel_libreoffice": 109,
+   "python": 109.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 9: Li",
+   "excel_libreoffice": 120,
+   "python": 120.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 10: Li",
+   "excel_libreoffice": 131,
+   "python": 131.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 1: Ls",
+   "excel_libreoffice": 43,
+   "python": 43.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 2: Ls",
+   "excel_libreoffice": 54,
+   "python": 54.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 3: Ls",
+   "excel_libreoffice": 65,
+   "python": 65.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 4: Ls",
+   "excel_libreoffice": 76,
+   "python": 76.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 5: Ls",
+   "excel_libreoffice": 87,
+   "python": 87.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 6: Ls",
+   "excel_libreoffice": 98,
+   "python": 98.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 7: Ls",
+   "excel_libreoffice": 109,
+   "python": 109.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 8: Ls",
+   "excel_libreoffice": 120,
+   "python": 120.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 9: Ls",
+   "excel_libreoffice": 131,
+   "python": 131.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 10: Ls",
+   "excel_libreoffice": 142,
+   "python": 142.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 1: xi",
+   "excel_libreoffice": 37.5,
+   "python": 37.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 2: xi",
+   "excel_libreoffice": 48.5,
+   "python": 48.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 3: xi",
+   "excel_libreoffice": 59.5,
+   "python": 59.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 4: xi",
+   "excel_libreoffice": 70.5,
+   "python": 70.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 5: xi",
+   "excel_libreoffice": 81.5,
+   "python": 81.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 6: xi",
+   "excel_libreoffice": 92.5,
+   "python": 92.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 7: xi",
+   "excel_libreoffice": 103.5,
+   "python": 103.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 8: xi",
+   "excel_libreoffice": 114.5,
+   "python": 114.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 9: xi",
+   "excel_libreoffice": 125.5,
+   "python": 125.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 10: xi",
+   "excel_libreoffice": 136.5,
+   "python": 136.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 1: fi",
+   "excel_libreoffice": 34,
+   "python": 34.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 2: fi",
+   "excel_libreoffice": 40,
+   "python": 40.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 3: fi",
+   "excel_libreoffice": 18,
+   "python": 18.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 4: fi",
+   "excel_libreoffice": 38,
+   "python": 38.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 5: fi",
+   "excel_libreoffice": 40,
+   "python": 40.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 6: fi",
+   "excel_libreoffice": 50,
+   "python": 50.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 7: fi",
+   "excel_libreoffice": 48,
+   "python": 48.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 8: fi",
+   "excel_libreoffice": 62,
+   "python": 62.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 9: fi",
+   "excel_libreoffice": 34,
+   "python": 34.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 10: fi",
+   "excel_libreoffice": 36,
+   "python": 36.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 1: Fi",
+   "excel_libreoffice": 34,
+   "python": 34.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 2: Fi",
+   "excel_libreoffice": 74,
+   "python": 74.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 3: Fi",
+   "excel_libreoffice": 92,
+   "python": 92.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 4: Fi",
+   "excel_libreoffice": 130,
+   "python": 130.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 5: Fi",
+   "excel_libreoffice": 170,
+   "python": 170.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 6: Fi",
+   "excel_libreoffice": 220,
+   "python": 220.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 7: Fi",
+   "excel_libreoffice": 268,
+   "python": 268.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 8: Fi",
+   "excel_libreoffice": 330,
+   "python": 330.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 9: Fi",
+   "excel_libreoffice": 364,
+   "python": 364.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 10: Fi",
+   "excel_libreoffice": 400,
+   "python": 400.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 1: hi",
+   "excel_libreoffice": 0.085,
+   "python": 0.085,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 2: hi",
+   "excel_libreoffice": 0.1,
+   "python": 0.1,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 3: hi",
+   "excel_libreoffice": 0.045,
+   "python": 0.045,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 4: hi",
+   "excel_libreoffice": 0.095,
+   "python": 0.095,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 5: hi",
+   "excel_libreoffice": 0.1,
+   "python": 0.1,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 6: hi",
+   "excel_libreoffice": 0.125,
+   "python": 0.125,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 7: hi",
+   "excel_libreoffice": 0.12,
+   "python": 0.12,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 8: hi",
+   "excel_libreoffice": 0.155,
+   "python": 0.155,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 9: hi",
+   "excel_libreoffice": 0.085,
+   "python": 0.085,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 10: hi",
+   "excel_libreoffice": 0.09,
+   "python": 0.09,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 1: Hi",
+   "excel_libreoffice": 0.085,
+   "python": 0.085,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 2: Hi",
+   "excel_libreoffice": 0.185,
+   "python": 0.185,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 3: Hi",
+   "excel_libreoffice": 0.23,
+   "python": 0.23,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 4: Hi",
+   "excel_libreoffice": 0.325,
+   "python": 0.325,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 5: Hi",
+   "excel_libreoffice": 0.425,
+   "python": 0.425,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 6: Hi",
+   "excel_libreoffice": 0.55,
+   "python": 0.55,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 7: Hi",
+   "excel_libreoffice": 0.67,
+   "python": 0.67,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 8: Hi",
+   "excel_libreoffice": 0.825,
+   "python": 0.825,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 9: Hi",
+   "excel_libreoffice": 0.91,
+   "python": 0.91,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 10: Hi",
+   "excel_libreoffice": 1,
+   "python": 1.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 1: hi %",
+   "excel_libreoffice": 8.5,
+   "python": 8.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 2: hi %",
+   "excel_libreoffice": 10,
+   "python": 10.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 3: hi %",
+   "excel_libreoffice": 4.5,
+   "python": 4.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 4: hi %",
+   "excel_libreoffice": 9.5,
+   "python": 9.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 5: hi %",
+   "excel_libreoffice": 10,
+   "python": 10.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 6: hi %",
+   "excel_libreoffice": 12.5,
+   "python": 12.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 7: hi %",
+   "excel_libreoffice": 12,
+   "python": 12.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 8: hi %",
+   "excel_libreoffice": 15.5,
+   "python": 15.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 9: hi %",
+   "excel_libreoffice": 8.5,
+   "python": 8.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 10: hi %",
+   "excel_libreoffice": 9,
+   "python": 9.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 1: Hi %",
+   "excel_libreoffice": 8.5,
+   "python": 8.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 2: Hi %",
+   "excel_libreoffice": 18.5,
+   "python": 18.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 3: Hi %",
+   "excel_libreoffice": 23,
+   "python": 23.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 4: Hi %",
+   "excel_libreoffice": 32.5,
+   "python": 32.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 5: Hi %",
+   "excel_libreoffice": 42.5,
+   "python": 42.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 6: Hi %",
+   "excel_libreoffice": 55,
+   "python": 55.00000000000001,
+   "diferencia": 7.105427357601002e-15,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 7: Hi %",
+   "excel_libreoffice": 67,
+   "python": 67.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 8: Hi %",
+   "excel_libreoffice": 82.5,
+   "python": 82.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 9: Hi %",
+   "excel_libreoffice": 91,
+   "python": 91.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tabla de frecuencia",
+   "medida": "Tabla, intervalo 10: Hi %",
+   "excel_libreoffice": 100,
+   "python": 100.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Parámetros de la tabla",
+   "medida": "Parámetro n",
+   "excel_libreoffice": 400,
+   "python": 400.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Parámetros de la tabla",
+   "medida": "Parámetro mín",
+   "excel_libreoffice": 32.1,
+   "python": 32.1,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Parámetros de la tabla",
+   "medida": "Parámetro máx",
+   "excel_libreoffice": 140.8,
+   "python": 140.8,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Parámetros de la tabla",
+   "medida": "Parámetro R",
+   "excel_libreoffice": 108.7,
+   "python": 108.70000000000002,
+   "diferencia": 1.4210854715202004e-14,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Parámetros de la tabla",
+   "medida": "Parámetro k",
+   "excel_libreoffice": 10,
+   "python": 10.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Parámetros de la tabla",
+   "medida": "Parámetro R/k",
+   "excel_libreoffice": 10.87,
+   "python": 10.870000000000001,
+   "diferencia": 1.7763568394002505e-15,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Preguntas",
+   "medida": "Intervalo de mayor frecuencia",
+   "excel_libreoffice": "[109 - 120)",
+   "python": "[109 - 120)",
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Preguntas",
+   "medida": "Frecuencia absoluta máxima (fi)",
+   "excel_libreoffice": 62,
+   "python": 62.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Preguntas",
+   "medida": "Porcentaje de los accidentes (hi %)",
+   "excel_libreoffice": 15.5,
+   "python": 15.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Preguntas",
+   "medida": "Intervalo donde se alcanza el 60 %",
+   "excel_libreoffice": "[98 - 109)",
+   "python": "[98 - 109)",
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Preguntas",
+   "medida": "Hi (%) del intervalo anterior",
+   "excel_libreoffice": 55,
+   "python": 55.00000000000001,
+   "diferencia": 7.105427357601002e-15,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Preguntas",
+   "medida": "Hi (%) del intervalo donde se alcanza",
+   "excel_libreoffice": 67,
+   "python": 67.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Preguntas",
+   "medida": "Estimación dentro del intervalo (km/h)",
+   "excel_libreoffice": 102.583333333333,
+   "python": 102.58333333333333,
+   "diferencia": 3.268496584496461e-13,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tendencia central y posición",
+   "medida": "Moda",
+   "excel_libreoffice": 81.6,
+   "python": 81.6,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tendencia central y posición",
+   "medida": "Media",
+   "excel_libreoffice": 89.8615,
+   "python": 89.86149999999999,
+   "diferencia": 1.4210854715202004e-14,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tendencia central y posición",
+   "medida": "Mediana",
+   "excel_libreoffice": 94.05,
+   "python": 94.05,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tendencia central y posición",
+   "medida": "Mínimo",
+   "excel_libreoffice": 32.1,
+   "python": 32.1,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tendencia central y posición",
+   "medida": "Máximo",
+   "excel_libreoffice": 140.8,
+   "python": 140.8,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tendencia central y posición",
+   "medida": "Rango",
+   "excel_libreoffice": 108.7,
+   "python": 108.70000000000002,
+   "diferencia": 1.4210854715202004e-14,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tendencia central y posición",
+   "medida": "Cuartil 1 (Q1)",
+   "excel_libreoffice": 66.25,
+   "python": 66.25,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tendencia central y posición",
+   "medida": "Decil 5 (D5)",
+   "excel_libreoffice": 94.05,
+   "python": 94.05,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tendencia central y posición",
+   "medida": "Cuartil 3 (Q3)",
+   "excel_libreoffice": 114.85,
+   "python": 114.85,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tendencia central y posición",
+   "medida": "Percentil 10 (P10)",
+   "excel_libreoffice": 44.03,
+   "python": 44.03000000000001,
+   "diferencia": 7.105427357601002e-15,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Tendencia central y posición",
+   "medida": "Percentil 80 (P80)",
+   "excel_libreoffice": 117.98,
+   "python": 117.98000000000002,
+   "diferencia": 1.4210854715202004e-14,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Dispersión, asimetría y curtosis",
+   "medida": "Varianza muestral",
+   "excel_libreoffice": 923.5200679198,
+   "python": 923.5200679197994,
+   "diferencia": 5.684341886080801e-13,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Dispersión, asimetría y curtosis",
+   "medida": "Desviación típica muestral",
+   "excel_libreoffice": 30.3894729786451,
+   "python": 30.38947297864508,
+   "diferencia": 1.7763568394002505e-14,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Dispersión, asimetría y curtosis",
+   "medida": "Coeficiente de variación (%)",
+   "excel_libreoffice": 33.8181234217603,
+   "python": 33.81812342176025,
+   "diferencia": 4.973799150320701e-14,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Dispersión, asimetría y curtosis",
+   "medida": "Asimetría",
+   "excel_libreoffice": -0.261147041864672,
+   "python": -0.2611470418646723,
+   "diferencia": 2.7755575615628914e-16,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 2",
+   "bloque": "Dispersión, asimetría y curtosis",
+   "medida": "Curtosis (exceso)",
+   "excel_libreoffice": -1.0033174320711,
+   "python": -1.003317432071099,
+   "diferencia": 1.1102230246251565e-15,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "Regresión lineal",
+   "medida": "Pendiente (b)",
+   "excel_libreoffice": 0.772303815445711,
+   "python": 0.7723038154457105,
+   "diferencia": 5.551115123125783e-16,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "Regresión lineal",
+   "medida": "Intercepto (a)",
+   "excel_libreoffice": 1.72777550485683,
+   "python": 1.727775504856827,
+   "diferencia": 2.886579864025407e-15,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "Regresión lineal",
+   "medida": "Ecuación",
+   "excel_libreoffice": "y = 1.7278 + 0.7723 x",
+   "python": "y = 1.7278 + 0.7723 x",
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "Regresión lineal",
+   "medida": "Tipo de relación",
+   "excel_libreoffice": "Positiva",
+   "python": "Positiva",
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "Regresión lineal",
+   "medida": "Promedio con x = 0",
+   "excel_libreoffice": 1.05660377358491,
+   "python": 1.0566037735849056,
+   "diferencia": 4.440892098500626e-15,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "R², r y nivel",
+   "medida": "Coeficiente de determinación (R²)",
+   "excel_libreoffice": 0.596627537424317,
+   "python": 0.5966275374243168,
+   "diferencia": 1.1102230246251565e-16,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "R², r y nivel",
+   "medida": "Confiabilidad del modelo (%)",
+   "excel_libreoffice": 59.6627537424317,
+   "python": 59.66275374243168,
+   "diferencia": 1.4210854715202004e-14,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "R², r y nivel",
+   "medida": "Coeficiente de correlación de Pearson (r)",
+   "excel_libreoffice": 0.772416686396868,
+   "python": 0.7724166863968676,
+   "diferencia": 4.440892098500626e-16,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "R², r y nivel",
+   "medida": "Nivel de correlación lineal",
+   "excel_libreoffice": "Regular",
+   "python": "Regular",
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "Predicciones",
+   "medida": "Predicción 1: ŷ",
+   "excel_libreoffice": 2.50007932030254,
+   "python": 2.5000793203025378,
+   "diferencia": 2.220446049250313e-15,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "Predicciones",
+   "medida": "Predicción 1: promedio observado",
+   "excel_libreoffice": 0.507692307692308,
+   "python": 0.5076923076923077,
+   "diferencia": 3.3306690738754696e-16,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "Predicciones",
+   "medida": "Predicción 1: conductores",
+   "excel_libreoffice": 65,
+   "python": 65.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "Predicciones",
+   "medida": "Predicción 1: dentro del rango",
+   "excel_libreoffice": "Sí",
+   "python": "Sí",
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "Predicciones",
+   "medida": "Predicción 2: ŷ",
+   "excel_libreoffice": 5.58929458208538,
+   "python": 5.58929458208538,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "Predicciones",
+   "medida": "Predicción 2: promedio observado",
+   "excel_libreoffice": 5.375,
+   "python": 5.375,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "Predicciones",
+   "medida": "Predicción 2: conductores",
+   "excel_libreoffice": 16,
+   "python": 16.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "Predicciones",
+   "medida": "Predicción 2: dentro del rango",
+   "excel_libreoffice": "Sí",
+   "python": "Sí",
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "Predicciones",
+   "medida": "Predicción 3: ŷ",
+   "excel_libreoffice": 10.9954212902054,
+   "python": 10.995421290205353,
+   "diferencia": 4.618527782440651e-14,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "Predicciones",
+   "medida": "Predicción 3: promedio observado",
+   "excel_libreoffice": 15.5,
+   "python": 15.5,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "Predicciones",
+   "medida": "Predicción 3: conductores",
+   "excel_libreoffice": 8,
+   "python": 8.0,
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "Predicciones",
+   "medida": "Predicción 3: dentro del rango",
+   "excel_libreoffice": "Sí",
+   "python": "Sí",
+   "diferencia": 0.0,
+   "ok": true,
+   "valor_guardado_ok": true
+  },
+  {
+   "ejercicio": "Ejercicio 3",
+   "bloque": "Predicciones",
+   "medida": "Error típico de la estimación",
+   "excel_libreoffice": 2.5240467452071,
+   "python": 2.524046745207099,
+   "diferencia": 8.881784197001252e-16,
+   "ok": true,
+   "valor_guardado_ok": true
+  }
+ ],
+ "hoja_datos_identica_al_anexo": true,
+ "registros_datos": 400
+}
